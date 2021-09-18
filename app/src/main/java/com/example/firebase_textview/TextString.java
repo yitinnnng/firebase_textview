@@ -8,7 +8,8 @@ public class TextString {
     public  Context context;
 
 
-
+    public TextString (){}    
+    
     public TextString(Context context){
         this.context = context;
     }
