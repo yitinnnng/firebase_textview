@@ -7,7 +7,7 @@ public class TextString {
     private String z2;
     public  Context context;
 
-
+    public TextString (){}
     public TextString (){}    
     
     public TextString(Context context){

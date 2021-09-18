@@ -70,12 +70,11 @@ public class MainActivity extends AppCompatActivity {
                 myRef2.child(x_select).setValue(new TextString(t1.getText().toString(),t2.getText().toString()));
                 firebase_select(myRef2);
 
-
             }
         });
         b3.setOnClickListener(new View.OnClickListener(){
             public void onClick(View v){
-                myRef2.child(x_select).removeValue();
+                myRef2.child(String.valueOf(x_last)).removeValue();
                 firebase_select(myRef2);
 
             }
